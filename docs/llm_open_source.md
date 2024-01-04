@@ -58,8 +58,96 @@ GPT-2 leverages the Transformer decoder to predict probability distributions for
 P(t1,....,tn) = Π P(ti | t1, ...., ti-1) 
 ```
 
+Where:
+
+- t1 to tn are tokens (typically words or subwords) in a sequence
+- P is the probability distribution over sequences
+- Π denotes the product over conditional probabilities
+
+This utilizes the chain rule of probability to decompose the overall sequence probability into conditional terms.
+
+Each term P(ti | t1, ...., ti-1) gives the probability of the next token ti given the previous context tokens leading up to it.
+
+So the full formula essentially multiplies a series of conditional probabilities, one for each next token in the sequence.
+
+This allows autoregressively generating text token-by-token, by sampling the next word based on the predictions of the previous ones.
+
+The Transformer decoder architecture in GPT-2 is designed to model these conditional probabilities for text effectively using self-attention and neural layers.
+
+Training on vast corpora slowly sculpts the conditional distributions to resonate with patterns in natural text.
+
+In short, this decomposition into conditional text probabilities enables GPT-2 to generate remarkably high-quality and coherent text by capturing the essential continuity of language.
+
+
 Training on vast corpora slowly sculpts these distributions to resonate with patterns in textual data - enabling remarkably eloquent text generation capabilities.
 
 And so on for BLOOM's conversational architecture and LAMA's encoder-decoder structure.
 
 Combining the mathematical foundations with workflow optimization unlocks immense applied potential for open-source LLMs.
+
+**BLOOM**
+
+BLOOM is a conversational agent that has been specifically optimized for stability and coherence during dialog interactions. Some of the key techniques used:
+
+**Contextual Weight Assignments**
+
+BLOOM uses elastic weight consolidation (EWC) to prevent catastrophic forgetting when adapting to new conversational contexts:
+
+```
+L = Loss(y, ŷ) + λ ∑ Fi Wi (θ - θA)2
+```
+
+Here λ adjusts the regularization strength, Fi are Fisher information matrices calculated for parameter θ, Wi denotes the importance and θA contains the historical optimal values.
+
+This allows tuning model parameters to current context while retaining prior training.
+
+**Consistency Regularization**
+
+Consistency techniques like truncated backpropagation through time further enhance sequence level coherence:
+
+```
+L = CrossEntropy(y, ŷ) + β * ConsistencyLoss(hT, h1) 
+```
+
+Here h1 and hT are hidden states from the start and end of a generated sequence. Minimizing divergence through β ensures response stability.
+
+**Cross Entropy Loss**
+
+Cross entropy quantifies the difference between two probability distributions - specifically between the model's predicted distribution `ŷ` and the true distribution `y`.
+
+It is commonly used as the loss function when training classification models. Mathematically, for a single example:
+
+```
+H(y,ŷ) = −∑ y⋅log(ŷ)
+```
+
+Here `y` is the one-hot encoded vector for the true class and `ŷ` contains the model predicted probabilities per class.
+
+Minimizing cross-entropy guides the model to output probabilities that closely match the provided labels.
+
+**Consistency Loss**
+
+Consistency loss reduces divergence between model predictions across similar inputs. For language models, it relates outputs at different positions in a text sequence:
+
+```
+Lconsistency = ∑ D(hm, hn) 
+```
+
+Here `hm` and `hn` are hidden activations from the model at two different sequence positions. `D` measures divergence between the vectors - commonly using MSE or KL divergence.
+
+Minimizing this loss encourages stability in hidden representations across sequence positions. This enhances coherence in model outputs when generating text or having a conversation.
+
+The combination of cross-entropy and consistency losses help improve language quality and stability in models like BLOOM.
+
+
+**LAMA**
+
+LAMA employs a seq2seq Transformer architecture for tasks like summarization and question answering:
+
+
+```
+P(t1', ...., tm' | t1, ...., tn ) = Π P(tj'| t1, ..., tj-1', t1, ...., tn)
+```
+
+The encoder ingests the context sequence tn while decoder models the conditional probability of generating the target summary tk' token-by-token.
+

@@ -43,6 +43,7 @@ A comparison of AI provider capabilities
 7.  [LLMOps: Operating Large Language Models for Impactful Deployment](docs/LLMOps.md)
     - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
     - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
+    - [LLM Transformer Architecture](docs/Transformer.md)
 8. [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9. [Open Challenges](docs/Open_Challenges.md)
 10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
