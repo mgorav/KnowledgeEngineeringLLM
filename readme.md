@@ -42,8 +42,8 @@ A comparison of AI provider capabilities
 6.  [Architecture](Architectures.md)
 7.  [LLMOps: Operating Large Language Models for Impactful Deployment](LLMOps.md)
 8.  [Conversational Knowledge Agents](Conversational_Knowledge_Agents.md)
-9   [Open Challenges](Open_Challenges.md)
-10  [Knowledge Engineering & LLMs for Marketing Technology](MarTech.md)
+9.  [Open Challenges](Open_Challenges.md)
+10. [Knowledge Engineering & LLMs for Marketing Technology](MarTech.md)
 11. [References](References.md)
 
 
