@@ -34,16 +34,17 @@ Use cases across customer intelligence, content optimization and campaign orches
 A comparison of AI provider capabilities
 
 ### Contents
-1. [Background](KnowledgeEngineering%20.md)
-2. [The Poetry of Probabilities: Demystifying Large Language Models](LLM.md)
-3. [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](Incorporating_LLMs.md)
-4. [Methodologies](Methodologies.md)
-5. [Evaluation Frameworks](Evaluation_Frameworks.md)
-6. [Architecture](Architectures.md)
-7. [Conversational Knowledge Agents](Conversational_Knowledge_Agents.md)
-8. [Open Challenges](Open_Challenges.md)
-9. [Knowledge Engineering & LLMs for Marketing Technology](MarTech.md)
-10. [References](References.md)
+1.  [Background](KnowledgeEngineering%20.md)
+2.  [The Poetry of Probabilities: Demystifying Large Language Models](LLM.md)
+3.  [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](Incorporating_LLMs.md)
+4.  [Methodologies](Methodologies.md)
+5.  [Evaluation Frameworks](Evaluation_Frameworks.md)
+6.  [Architecture](Architectures.md)
+7.  [LLMOps: Operating Large Language Models for Impactful Deployment](LLMOps.md)
+8.  [Conversational Knowledge Agents](Conversational_Knowledge_Agents.md)
+9   [Open Challenges](Open_Challenges.md)
+10  [Knowledge Engineering & LLMs for Marketing Technology](MarTech.md)
+11. [References](References.md)
 
 
 
