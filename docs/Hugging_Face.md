@@ -43,7 +43,8 @@ Monitor model behavior and performance with CloudWatch data and logs.
 
 
 This bi-directional integration between Hugging Face and AWS harnesses both cutting edge ML innovation and scalable infrastructure for impactful LLM deployment.
-![img_11.png](..%2Fimages%2Fimg_11.png)
+
+![img_12.png](..%2Fimages%2Fimg_12.png)
 
 Here is a table of Hugging Face large language models that are production-ready:
 
