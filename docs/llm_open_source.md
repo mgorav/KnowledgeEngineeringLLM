@@ -23,6 +23,31 @@ Mathematically, self-attention layers calculate interaction scores between query
 Attention(Q,K,V) = softmax(QK^T/√d)V
 ```
 
+The attention mechanism is a key component powering the capabilities of large language models like BERT and GPT-2. Let's explore the self-attention formula in more detail:
+
+**Attention(Q,K,V) = softmax(QK^T/√d)V**
+
+Here's what each variable denotes:
+
+**Q:** Queries matrix. Each row represents the vector embedding for a token in the input text sequence that attention is applied on.
+
+**K:** Keys matrix. Analogous to queries - each row holds the vector for an input token.
+
+**V:** Values matrix. Again each row contains the embedding vector for an input token.
+
+Intuitively, queries Q represent what we want to focus attention on, keys K indicate what to match against, and values V hold what content we want to extract.
+
+The **softmax** normalizes weights assigning importance scores. Higher scores denote closer query-key matches.
+
+**QK^T:** This performs a matrix multiplication between queries and keys. The result captures query-key compatibility for every pair of tokens.
+
+**√d**: The d dimensionality scaling factor prevents dot products from growing too large with high-dimensional embeddings.
+
+**Final Output:** The output is a matrix containing attention weighted embedding value vectors - essentially tokens with their representations enriched by relationships modeled via multi-headed self-attention.
+
+In short, self-attention leverages this mathematical machinery to relate words in a sentence irrespective of relative positioning, enabling language understanding. The formulas power modern NLP!
+
+
 Stacking such layers enables modeling linguistic hierarchy. Pretraining on massive text corpora provides the breadth of language grounding.
 
 ### GPT-2: Sculpting Probability Distributions
