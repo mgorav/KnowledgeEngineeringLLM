@@ -22,7 +22,7 @@ Key knowledge engineering tasks in MarTech using LLMs include:
 
 A sample neuro-symbolic architecture is:
 
-![img_1.png](img_1.png)
+![img_1.png](../images/img_1.png)
 
 The key components include:
 
@@ -99,7 +99,7 @@ Specifically, LLMs can enhance three key pillars:
 
 The key is developing hybrid architectures that symbiotically combine symbolic knowledge platforms with LLM interfaces:
 
-![img_2.png](img_2.png)
+![img_2.png](../images/img_2.png)
 
 This allows fusing the precision and auditability of knowledge graphs with the creativity and intuition of LLMs.
 

@@ -9,7 +9,7 @@ Domain specialists encapsulate knowledge into conversational rules and prompt te
 "If X symptom, recommend Y treatment"  
 "Explain Z product benefits simply"
 
-![img_5.png](img_5.png)
+![img_5.png](../images/img_5.png)
 
 Prompts act as soft constraints nudging generative direction.
 
@@ -21,7 +21,7 @@ Ontologies provide navigational maps for the LLM to understand dialog context. D
 P(next response | dialog history, ontology)
 ```
 
-![img_6.png](img_6.png)
+![img_6.png](../images/img_6.png)
 
 ### Safeguarding Reliability
 
@@ -31,7 +31,7 @@ LLM responses undergo verification against knowledge base facts to catch factual
 similarity(LM response, facts) = cosine(vector1, vector2)  
 ```
 
-![img_7.png](img_7.png)
+![img_7.png](../images/img_7.png)
 
 **Continuous Improvement**
 

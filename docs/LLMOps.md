@@ -14,7 +14,7 @@ The architecture allows models to interpolate between human-like behavior - unde
 * **Decoders & Attention:** Spotlight focus predicts the next word based on context.
 * **Layers & Parameters:** Building blocks stacked tall to capture intricate language patterns.
 
-![img_10.png](img_10.png)
+![img_10.png](../images/img_10.png)
 
 ### Scaling Parameters and Data Takes Performance to New Heights
 

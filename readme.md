@@ -35,16 +35,16 @@ A comparison of AI provider capabilities
 
 ### Contents
 1.  [Background](KnowledgeEngineering%20.md)
-2.  [The Poetry of Probabilities: Demystifying Large Language Models](LLM.md)
-3.  [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](Incorporating_LLMs.md)
-4.  [Methodologies](Methodologies.md)
-5.  [Evaluation Frameworks](Evaluation_Frameworks.md)
-6.  [Architecture](Architectures.md)
-7.  [LLMOps: Operating Large Language Models for Impactful Deployment](LLMOps.md)
-8.  [Conversational Knowledge Agents](Conversational_Knowledge_Agents.md)
-9.  [Open Challenges](Open_Challenges.md)
-10. [Knowledge Engineering & LLMs for Marketing Technology](MarTech.md)
-11. [References](References.md)
+2.  [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
+3.  [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
+4.  [Methodologies](docs/Methodologies.md)
+5.  [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
+6.  [Architecture](docs/Architectures.md)
+7.  [LLMOps: Operating Large Language Models for Impactful Deployment](docs/LLMOps.md)
+8.  [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
+9.  [Open Challenges](docs/Open_Challenges.md)
+10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
+11. [References](docs/References.md)
 
 
 

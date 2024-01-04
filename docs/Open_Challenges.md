@@ -2,7 +2,7 @@
 
 Realizing industrial-grade knowledge solutions demands crossing frontiers across capabilities, evaluation, and integration:
 
-![img_8.png](img_8.png)
+![img_8.png](../images/img_8.png)
 
 ### Reasoning
 
@@ -18,7 +18,7 @@ Multifaceted evaluation combining test suites and human assessment provides holi
 
 ### Additionally, key aspects include:
 
-![img_9.png](img_9.png)
+![img_9.png](../images/img_9.png)
 
 The challenges span theory, systems, and applications across sectors like healthcare, finance, marketing and more.
 

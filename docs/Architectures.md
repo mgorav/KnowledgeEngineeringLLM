@@ -5,7 +5,7 @@ Hybrid platforms synergistically combine symbolic representations with neural te
 ## The Yin and Yang of Symbolic and Neural
 Hybrid systems interconnect four key components:
 
-![img_3.png](img_3.png)
+![img_3.png](../images/img_3.png)
 
 **Knowledge Base (KB):** Contains structured facts and logic rules curated by domain experts to establish integrity.
 
@@ -19,7 +19,7 @@ Hybrid systems interconnect four key components:
 
 The components enable a flywheel effect sustaining continuous enrichment:
 
-![img_4.png](img_4.png)
+![img_4.png](../images/img_4.png)
 
 This architecture allows seamlessly harnessing both neural representations for similarity-based reasoning with symbolic logic for verifiable deduction within an integrated system.
 
