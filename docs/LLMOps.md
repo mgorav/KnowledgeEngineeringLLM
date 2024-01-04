@@ -36,6 +36,7 @@ Built ground-up for scale and experimentation velocity, this cloud architecture 
 
 ### Beyond Model Serving: Operational Considerations
 
+
 While hosting the model on production servers is crucial, additional cross-cutting capabilities enable smooth operations:
 
 * **Data Engineering:** Sourcing, cleaning and labeling massive corpora.
@@ -71,3 +72,8 @@ This table outlines key AWS services for LLMOps categorized by the **LLMOps Bedr
 
 Remember, choosing the right combination of services depends on your specific LLM needs, budget, and desired functionalities. Consider consulting with AWS experts to design a bespoke LLMOps architecture for your project.
 
+#### More ...
+
+* [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](llm_open_source.md)
+* [Hugging Face: The Home of Open-Source LLMs](Hugging_Face.md)
+* [LLM Transformer Architecture](Transformer.md)
