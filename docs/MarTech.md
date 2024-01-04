@@ -10,7 +10,7 @@ We can formally represent a marketing knowledge graph as:
 G_{M} = (V_{M}, E_{M}) 
 ```
 
-Where the vertex set $V_{M}$ contains entities like customers, products, campaigns etc. And the edge set $E_{M}$ represents relations like `purchased`, `viewed`, `responded` etc.
+Where the vertex set (VM) $V_{M}$ contains entities like customers, products, campaigns etc. And the edge set (EM) $E_{M}$ represents relations like `purchased`, `viewed`, `responded` etc.
 
 Key knowledge engineering tasks in MarTech using LLMs include:
 
@@ -19,6 +19,8 @@ Key knowledge engineering tasks in MarTech using LLMs include:
 **Content Optimization**: Employ LLMs for natural language generation of marketing assets like ad creatives, landing pages, emails. Ensure personalization and consistency.
 
 **Campaign Orchestration**: Construct hybrid systems with LLMs to determine optimal targeting and budgets. Ensure reasoning transparency.
+
+![img_15.png](..%2Fimages%2Fimg_15.png)
 
 A sample neuro-symbolic architecture is:
 
