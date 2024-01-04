@@ -64,3 +64,5 @@ Here is a table of Hugging Face large language models that are production-ready:
 - Infrastructure Requirements: Manageable resource needs allowing cost-effective deployment
 - Constraint Integration: Controls for safety, accountability etc.
 - Monitoring & Explainability: Observability into model internals
+
+### [Back](..%2Freadme.md)

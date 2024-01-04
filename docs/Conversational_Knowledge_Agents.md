@@ -42,3 +42,5 @@ Human experts refine responses, augment rules and expand the knowledge graph, en
 Barriers span predictable dialog design, transparent explanations, scalable knowledge interlinking and rigorous longitudinal evaluation. Mitigating these risks while benefiting from lower expertise barriers via conversation is crucial.
 
 Formal modeling still provides validation scaffolding. Synthesizing strengths of neural and symbolic techniques promises assistive agents that understand natural language while reliably advising within specialized domains.
+
+### [Back](..%2Freadme.md)

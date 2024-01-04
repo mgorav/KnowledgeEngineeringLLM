@@ -30,3 +30,5 @@ Facts become triples (h, r, t) comprising head entities, relations, and tail ent
 The fusion of neural and symbolic techniques promises to advance knowledge engineering to new levels of capability and reliability. Realizing the potential necessitates crossing research frontiers.
 
 Here is an attempt to rewrite the Large Language Models section in a cohesive and impressive way while retaining the mathematical details:
+
+### [Back](..%2Freadme.md)

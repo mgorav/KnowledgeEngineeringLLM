@@ -33,3 +33,5 @@ For example, a conversational agent can relate entities across dialogue history 
 In summary, while much of the hype around language models focuses on scale, sufficient architecture innovation enables surpassing benchmarks requiring reasoning ability over just pattern recognition from statistical trends. Transformers deliver on modeling the dynamic context-sensitivity fundamental to human language - a vital prerequisite for advancing multi-turn dialog, causal reasoning, robust question answering and more.
 
 ![img_13.png](..%2Fimages%2Fimg_13.png)
+
+### [Back](..%2Freadme.md)

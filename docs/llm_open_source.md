@@ -151,3 +151,4 @@ P(t1', ...., tm' | t1, ...., tn ) = Π P(tj'| t1, ..., tj-1', t1, ...., tn)
 
 The encoder ingests the context sequence tn while decoder models the conditional probability of generating the target summary tk' token-by-token.
 
+### [Back](..%2Freadme.md)

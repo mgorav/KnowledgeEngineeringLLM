@@ -29,3 +29,5 @@ The challenges span theory, systems, and applications across sectors like health
 Overcoming these barriers necessitates cross-disciplinary breakthroughs fusing strengths across machine learning, knowledge representation, linguistics, and specific domains.
 
 The fruits warrant the effort - ushering an era of vastly enhanced autonomy and productivity where humans and machines collaborate synergistically rather than compete.
+
+### [Back](..%2Freadme.md)

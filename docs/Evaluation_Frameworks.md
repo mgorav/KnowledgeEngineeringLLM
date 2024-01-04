@@ -29,3 +29,5 @@ Solely automatic analysis struggles with nuances. Purely manual examination chal
 By fusing technical rigor with creative evaluation design, we can fully actualize industrial-scale LLM knowledge repositories. Reliability metrics must expand beyond accuracy to include integrity, consistency and auditability.
 
 The path ahead enables living knowledge stores, fluidly evolving with new learnings - realizing this vision requires undertaking the multifaceted balancing act of LLM evaluation.
+
+### [Back](..%2Freadme.md)

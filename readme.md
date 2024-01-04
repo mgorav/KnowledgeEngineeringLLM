@@ -34,7 +34,7 @@ Use cases across customer intelligence, content optimization and campaign orches
 A comparison of AI provider capabilities
 
 ### Contents
-1. [Background](KnowledgeEngineering%20.md)
+1. [Background](docs/KnowledgeEngineering%20.md)
 2. [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
 3. [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
 4. [Methodologies](docs/Methodologies.md)
