@@ -41,6 +41,7 @@ A comparison of AI provider capabilities
 5.  [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
 6.  [Architecture](docs/Architectures.md)
 7.  [LLMOps: Operating Large Language Models for Impactful Deployment](docs/LLMOps.md)
+    - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
 8.  [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9.  [Open Challenges](docs/Open_Challenges.md)
 10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
