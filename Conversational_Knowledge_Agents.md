@@ -1,12 +1,44 @@
-## Conversational Knowledge Agents
-Conversational agents powered by LLMs like ChatGPT promise more intuitive human-machine interaction by using natural dialogue [8]. KE applications can enhance such agents with domain knowledge to provide reliable domain-specific advice.
+## Building Knowledgeable Assistants: Architecting Conversational Agents with Expertise
 
-Some notable opportunities in this architecture include:
-1. Encoding expertise as conversational rules and prompts
-2. Dialog managers that switch conversation flows based on ontologies
-3. Verifying LLM responses using knowledge base facts
-4. Maintaining updated knowledge through human-in-the-loop annotation
+Conversational interfaces powered by large language models (LLMs) enable intuitive human-machine interaction. Integrating domain knowledge expands their capabilities into reliable advisors.
 
-Research problems span design principles for predictable dialog, scaling knowledge linking, transparent explanations, and consistency evaluation through longitudinal human studies.
+### Embedding Expertise through Prompts
 
-The conversational interface lowers adoption barriers for experts. But compared to formal knowledge authoring, risks like factual errors and specification gaps need rigorous analysis. Formal modeling still plays an important role to enable complex reasoning and system validation.
+Domain specialists encapsulate knowledge into conversational rules and prompt templates to guide the LLM:
+
+"If X symptom, recommend Y treatment"  
+"Explain Z product benefits simply"
+
+![img_5.png](img_5.png)
+
+Prompts act as soft constraints nudging generative direction.
+
+### Orchestrating Dialogue Flows
+
+Ontologies provide navigational maps for the LLM to understand dialog context. Dialog managers leverage these structures to switch conversation flows, ensuring natural progression using concepts like:
+
+```
+P(next response | dialog history, ontology)
+```
+
+![img_6.png](img_6.png)
+
+### Safeguarding Reliability
+
+LLM responses undergo verification against knowledge base facts to catch factual inaccuracies. Metrics like cosine similarity quantify closeness of generated statements to ground truth:
+
+```
+similarity(LM response, facts) = cosine(vector1, vector2)  
+```
+
+![img_7.png](img_7.png)
+
+**Continuous Improvement**
+
+Human experts refine responses, augment rules and expand the knowledge graph, enabling lifelong learning critical for real-world deployment.
+
+### Key Challenges
+
+Barriers span predictable dialog design, transparent explanations, scalable knowledge interlinking and rigorous longitudinal evaluation. Mitigating these risks while benefiting from lower expertise barriers via conversation is crucial.
+
+Formal modeling still provides validation scaffolding. Synthesizing strengths of neural and symbolic techniques promises assistive agents that understand natural language while reliably advising within specialized domains.
