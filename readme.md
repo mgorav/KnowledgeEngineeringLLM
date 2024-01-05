@@ -49,6 +49,7 @@ By weaving these elements into your marketing narrative, you can position your s
     - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
     - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
       - [Delving Deeper into LLM Architectures: A Look at Pre-model Choices](docs/open_source_llm_architecture.md)
+      - [Examples](docs/examples_open_source.md)
     - [LLM Transformer Architecture](docs/Transformer.md)
     - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
       - [Challenges](docs/RAG_Challenges.md)
@@ -57,7 +58,7 @@ By weaving these elements into your marketing narrative, you can position your s
     - [Navigating Smooth Sailing for LLM Apps with Observability](docs/observability.md)
 8.  [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9.  [Open Challenges](docs/Open_Challenges.md)
-10. [LLMOps Approaches](approahces.md)
+10. [LLMOps Approaches](docs/approahces.md)
 11. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
 12. [References](docs/References.md)
 
