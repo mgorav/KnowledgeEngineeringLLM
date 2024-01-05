@@ -44,6 +44,8 @@ A comparison of AI provider capabilities
     - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
     - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
     - [LLM Transformer Architecture](docs/Transformer.md)
+    - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
+      - [Challenges](docs/RAG_Challenges.md)
 8. [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9. [Open Challenges](docs/Open_Challenges.md)
 10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
