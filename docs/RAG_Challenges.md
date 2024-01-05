@@ -70,3 +70,6 @@ e = p(r | A, H)
 Jointly modeling distinct modalities enhances interpretation.
 
 Progress relies on mathematical innovation across these frontiers to enable reliable RAG deployment.
+
+
+### [Back](..%2Freadme.md)
