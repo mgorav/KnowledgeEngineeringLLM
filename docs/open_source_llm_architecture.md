@@ -137,7 +137,11 @@ Practical utility necessitates balancing between generalization and specializati
 
 ```
 BLEU = TextSimilarity(Target, Generated)  
+BLEU = Min(1, Π Pn) * BP
 ``` 
+Where Pn is cumulative higher order precision and BP is brevity penalty.
+
+Additional metrics like METEOR incorporate synonyms, paraphrases. Expert-in-the-loop techniques combine statistical measures with qualitative human assessment.
 
 Statistical correlations approximate human quality judgement.
 
@@ -166,6 +170,29 @@ P(CorrectResponse | DialogHistory)
 
 Accuracy and context shifts quantify coherence.
 
+**Examining Dialog Quality**
+
+Key metrics for conversational coherence include:
+
+**Response Accuracy:**
+
+```
+Accuracy = Fraction(Correct Dialog Responses) 
+```
+
+**Context Consistency:**
+
+```
+P(Response advocates for Context)
+```
+
+Adversarially triggered persona shifts quantify sticking to desirable attributes.
+
+**User Satisfaction:**
+
+Aggregate ratings for understandability, responsiveness and social conduct provide feedback signals for improvement.
+
+Blending automated benchmarks with human evaluations across diverse facets prevents narrow optimization, ensuring holistic quality.
 
 **Benchmarking for Biases**
 
