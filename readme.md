@@ -7,11 +7,11 @@
 
 A recent Gartner report predicts that large language models (LLMs) will revolutionize traditional knowledge engineering, leaving behind the limitations of rigid symbolic models.
 
-**_"LLMs are poised to fundamentally reshape how we approach knowledge engineering,"_** declares a Gartner researcher. "Their ability to process massive amounts of text can accelerate knowledge graph construction by automatically identifying relationships and generating insights."
+_**"LLMs are poised to fundamentally reshape how we approach knowledge engineering,"**_ declares a Gartner researcher. "Their ability to process massive amounts of text can accelerate knowledge graph construction by automatically identifying relationships and generating insights."
 
 By feasting on mountains of training data, LLMs acquire a nuanced understanding of language. This enables them to elicit human expertise more naturally through conversational interfaces, replacing structured questionnaires and formal ontologies. Knowledge becomes fluid, living as interconnected narratives instead of static data points.
 
-**_"Combining LLMs with existing knowledge engineering tools creates a powerful synergy,"**_ explains a Gartner Principal Research Analyst. "LLMs handle unstructured data with ease, while traditional tools provide structure and organization, leading to a more complete picture of knowledge."
+_**"Combining LLMs with existing knowledge engineering tools creates a powerful synergy,"**_ explains a Gartner Principal Research Analyst. "LLMs handle unstructured data with ease, while traditional tools provide structure and organization, leading to a more complete picture of knowledge."
 
 This fusion promises to boost representation, reasoning, and evaluation:
 
