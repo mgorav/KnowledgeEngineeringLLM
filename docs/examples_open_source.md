@@ -43,3 +43,58 @@ print(gen_text)
 - Triggers text generation adding to prompt
 - Decodes tokens into readable text
 - `do_sample` introduces randomness mimicking human
+
+**DistilBERT (HuggingFace)**
+
+```python
+from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
+
+tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased')
+
+text = "I really enjoyed that movie!"  
+inputs = tokenizer(text, return_tensors='pt')
+outputs = model(**inputs)  
+
+scores = outputs[0].argmax()
+print(scores)
+```
+
+Similar to BERT but with the smaller DistilBERT model for faster inference.
+
+**GPT-J (EleutherAI)**
+
+```python
+import jax
+from mesh_transformer import *
+
+model = GPTJForCausalLM.from_pretrained()
+tokenizer = Gpt2Tokenizer.from_pretrained("gpt2")
+
+text = tokenizer.encode("Once upon a time", return_tensors='jax')
+output = model.generate(text, do_sample=True, top_p=0.9, max_length=100)
+print(tokenizer.decode(output[0]))
+```
+
+Leverages Mesh Transformer and JAX for efficient large scale generation.
+
+
+**BLOOM (HuggingFace)**
+
+```python 
+from transformers import BlenderbotSmallTokenizer, BlenderbotSmallForConditionalGeneration
+
+tokenizer = BlenderbotSmallTokenizer.from_pretrained("facebook/blenderbot_small-90M")
+model = BlenderbotSmallForConditionalGeneration.from_pretrained("facebook/blenderbot_small-90M")
+
+text = "How are you doing today?"
+inputs = tokenizer([text], return_tensors="pt") 
+reply = model.generate(**inputs)
+print(tokenizer.decode(reply[0]))
+```
+
+Facebook's BLOOM encoder-decoder chatbot model.
+
+And similarly for XLM-RoBERTa multilingual model and T5 text-to-text transfer learning model.
+
+### [Back](..%2Freadme.md)
