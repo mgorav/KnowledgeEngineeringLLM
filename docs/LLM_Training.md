@@ -93,4 +93,31 @@ Increases arithmetic intensity for faster computation
 Accelerates training performance, with speedups reported up to 60% quicker convergence
 In summary, AMP provides an optimized and accelerated execution of math while retaining accuracy and precision where necessary - making it very useful for large language model training which involves immense computational demands.
 
+**Below is a table highlighting key considerations for pre-model choice in open-source LLMs:**
+
+| **Model** | **Architecture** | **Strengths** | **Considerations** | 
+|---|---|---|---|
+| BERT | Bidirectional Encoder | Natural language understanding, text classification, question answering | Requires fine-tuning for specific tasks |
+| DistilBERT | Lightweight BERT variant | Reduced model size, faster inference, lower compute costs | Slight performance trade-off compared to BERT |
+| GPT-2 | Autoregressive Decoder | Text generation, creative text formats, language translation | Can be unstable for long-form generation, prone to biases |
+| GPT-J | Larger GPT-2 variant | Improved text quality, more creative and informative text | Higher computational costs, requires careful handling of biases |
+| BLOOM | Encoder-Decoder, designed for dialogue | Conversational AI, chatbots, open-ended dialogue | Still under development, potential for safety and bias issues |
+| XLM-RoBERTa | Multilingual BERT variant | Cross-lingual tasks, text understanding in multiple languages | Performance varies across languages, may need additional fine-tuning |
+| T5 | Encoder-Decoder, designed for multiple tasks | Multi-task learning, summarization, translation, question answering | Requires significant compute resources, not as production-ready |
+
+**Key Factors for Selection:**
+
+- **Task Alignment:** Choose a model architecture that aligns well with your specific task (e.g., BERT for NLU, GPT-J for text generation, BLOOM for dialogue).
+- **Performance Requirements:** Consider model size, accuracy, and inference speed based on your application needs and resource constraints.
+- **Data Availability:** Ensure you have sufficient data to fine-tune the chosen model effectively.
+- **Production Readiness:** Evaluate model stability, infrastructure requirements, and safety controls for real-world deployment.
+- **Explainability and Bias:** Assess the model's potential for biases and the availability of explainability techniques.
+
+**Additional Considerations:**
+
+- **Community Support:** Opt for models with active communities and resources for troubleshooting and knowledge sharing.
+- **Ethical Considerations:** Evaluate potential ethical implications of the model's use and implement responsible AI practices.
+
+
+
 ### [Back](..%2Freadme.md)
