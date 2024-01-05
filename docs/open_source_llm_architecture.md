@@ -186,6 +186,7 @@ Accuracy = Fraction(Correct Dialog Responses)
 P(Response advocates for Context)
 ```
 
+
 Adversarially triggered persona shifts quantify sticking to desirable attributes.
 
 **User Satisfaction:**
@@ -199,5 +200,48 @@ Blending automated benchmarks with human evaluations across diverse facets preve
 Adversarial triggers and rolling human assessments safeguard against unfair social stereotyping. Formal verification mathematical proves ethical compliance.
 
 In concert, these comprehensive analytical techniques enable selecting LLMs Demonstrating desired competence, efficiency and fairness.
+
+#### References
+
+**BERT:**
+
+- **Paper:** [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
+- **GitHub (Hugging Face Transformers):** [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+**DistilBERT:**
+
+- **Paper:** [https://arxiv.org/abs/1910.01108](https://arxiv.org/abs/1910.01108)
+- **GitHub (Hugging Face Transformers):** [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+**GPT-2:**
+
+- **Paper:** [https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+- **GitHub (OpenAI/gpt-2):** [https://github.com/openai/gpt-2](https://github.com/openai/gpt-2)
+
+**GPT-J:**
+
+- **Paper:** [https://arxiv.org/abs/2005.14165](https://arxiv.org/abs/2005.14165)
+- **GitHub (EleutherAI/gpt-j-6B):** [https://github.com/kingoflolz/mesh-transformer-jax](https://github.com/kingoflolz/mesh-transformer-jax)
+
+**BLOOM:**
+
+- **Paper:** [https://arxiv.org/abs/2207.04568](https://arxiv.org/abs/2207.04568)
+- **GitHub (Hugging Face Transformers):** [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+**XLM-RoBERTa:**
+
+- **Paper:** [https://arxiv.org/abs/1911.02116](https://arxiv.org/abs/1911.02116)
+- **GitHub (Hugging Face Transformers):** [https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
+
+**T5:**
+
+- **Paper:** [https://arxiv.org/abs/1910.10683](https://arxiv.org/abs/1910.10683)
+- **GitHub (Google Research/text-to-text-transfer-transformer):** [https://github.com/google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
+
+**Additional Resources:**
+
+- **Hugging Face Hub:** [https://huggingface.co/models](https://huggingface.co/models) (Extensive collection of pre-trained models and resources)
+- **Papers With Code:** [https://paperswithcode.com/area/nlp](https://paperswithcode.com/area/nlp) (Search for papers and code related to LLMs)
+
 
 ### [Back](..%2Freadme.md)
