@@ -46,6 +46,7 @@ A comparison of AI provider capabilities
     - [LLM Transformer Architecture](docs/Transformer.md)
     - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
       - [Challenges](docs/RAG_Challenges.md)
+    - [Navigating Smooth Sailing for LLM Apps with Observability](docs/observability.md)
 8. [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9. [Open Challenges](docs/Open_Challenges.md)
 10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
