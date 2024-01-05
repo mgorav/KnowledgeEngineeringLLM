@@ -7,11 +7,11 @@
 
 A recent Gartner report predicts that large language models (LLMs) will revolutionize traditional knowledge engineering, leaving behind the limitations of rigid symbolic models.
 
-"LLMs are poised to fundamentally reshape how we approach knowledge engineering," declares a Gartner researcher. "Their ability to process massive amounts of text can accelerate knowledge graph construction by automatically identifying relationships and generating insights."
+**_"LLMs are poised to fundamentally reshape how we approach knowledge engineering,"_** declares a Gartner researcher. "Their ability to process massive amounts of text can accelerate knowledge graph construction by automatically identifying relationships and generating insights."
 
 By feasting on mountains of training data, LLMs acquire a nuanced understanding of language. This enables them to elicit human expertise more naturally through conversational interfaces, replacing structured questionnaires and formal ontologies. Knowledge becomes fluid, living as interconnected narratives instead of static data points.
 
-"Combining LLMs with existing knowledge engineering tools creates a powerful synergy," explains a Gartner Principal Research Analyst. "LLMs handle unstructured data with ease, while traditional tools provide structure and organization, leading to a more complete picture of knowledge."
+**_"Combining LLMs with existing knowledge engineering tools creates a powerful synergy,"**_ explains a Gartner Principal Research Analyst. "LLMs handle unstructured data with ease, while traditional tools provide structure and organization, leading to a more complete picture of knowledge."
 
 This fusion promises to boost representation, reasoning, and evaluation:
 
@@ -19,9 +19,9 @@ This fusion promises to boost representation, reasoning, and evaluation:
 * **Reasoning:** Blending LLM extraction with symbolic logic adds formal verifiability that free-form conversations often lack.
 * **Evaluation:** Hybrid frameworks employing test suites, simulations, and human-in-the-loop assessments ensure balanced coverage and accuracy.
 
-However, challenges like bias, transparency, and consistency need to be addressed before realizing the full potential, cautions Gavin Tay, Research VP at Gartner. "Making LLMs trusted and reliable advisors is crucial for widespread adoption in knowledge-intensive fields."
+> However, challenges like bias, transparency, and consistency need to be addressed before realizing the full potential, cautions Gavin Tay, Research VP at Gartner. "Making LLMs trusted and reliable advisors is crucial for widespread adoption in knowledge-intensive fields."
 
-Gartner predicts that over 70% of organizations will be leveraging LLMs for knowledge engineering by 2025, drastically reducing associated costs. But this path requires collaboration across machine learning, linguistics, and application domains.
+> Gartner predicts that over 70% of organizations will be leveraging LLMs for knowledge engineering by 2025, drastically reducing associated costs. But this path requires collaboration across machine learning, linguistics, and application domains.
 
 "This convergence of language and logic heralds a new era of amplified productivity," projects Tay. "It's a future where AI and human intelligence synergistically enhance each other, paving the way for groundbreaking advancements."
 
