@@ -34,12 +34,12 @@ Use cases across customer intelligence, content optimization and campaign orches
 A comparison of AI provider capabilities
 
 ### Contents
-1. [Background](docs/KnowledgeEngineering%20.md)
-2. [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
-3. [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
-4. [Methodologies](docs/Methodologies.md)
-5. [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
-6. [Architecture](docs/Architectures.md)
+1.  [Background](docs/KnowledgeEngineering%20.md)
+2.  [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
+3.  [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
+4.  [Methodologies](docs/Methodologies.md)
+5.  [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
+6.  [Architecture](docs/Architectures.md)
 7.  [LLMOps: Operating Large Language Models for Impactful Deployment](docs/LLMOps.md)
     - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
     - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
@@ -47,9 +47,9 @@ A comparison of AI provider capabilities
     - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
       - [Challenges](docs/RAG_Challenges.md)
     - [Navigating Smooth Sailing for LLM Apps with Observability](docs/observability.md)
-8. [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
-9. [Open Challenges](docs/Open_Challenges.md)
-10 [LLMOps Approaches](approahces.md)
+8.  [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
+9.  [Open Challenges](docs/Open_Challenges.md)
+10. [LLMOps Approaches](approahces.md)
 11. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
 12. [References](docs/References.md)
 
