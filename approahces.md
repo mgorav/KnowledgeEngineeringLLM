@@ -68,3 +68,5 @@ Committees provide human judgement for responsible development:
 These constitutional techniques allow enjoying the fruits of progress while upholding civil liberties - winning sustainable public trust.
 
 ![img_16.png](images%2Fimg_16.png)
+
+### [Back](..%2Freadme.md)
