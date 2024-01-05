@@ -2,7 +2,7 @@
 
 ## Introduction
 
-LLMs Poised to Reshape Knowledge Engineering, Says Gartner
+> LLMs Poised to Reshape Knowledge Engineering, Says Gartner
 
 Large language models (LLMs) are set to fundamentally transform conventional knowledge engineering approaches relying on rigid symbolic models, indicates recent research from Gartner.
 
