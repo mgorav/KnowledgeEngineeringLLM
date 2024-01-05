@@ -52,6 +52,7 @@ By weaving these elements into your marketing narrative, you can position your s
     - [LLM Transformer Architecture](docs/Transformer.md)
     - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
       - [Challenges](docs/RAG_Challenges.md)
+      - [Boosting LLMs with Open Source RAG](docs/rag_tools.md)
     - [Demystifying Per-Model LLM Training: A Technical Deep Dive](docs/LLM_Training.md)
     - [Navigating Smooth Sailing for LLM Apps with Observability](docs/observability.md)
 8.  [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
