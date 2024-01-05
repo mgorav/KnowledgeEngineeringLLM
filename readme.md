@@ -48,6 +48,7 @@ By weaving these elements into your marketing narrative, you can position your s
 7.  [LLMOps: Operating Large Language Models for Impactful Deployment](docs/LLMOps.md)
     - [Unlocking Open-Source LLM Power with Streamlined AWS LLMOps](docs/llm_open_source.md)
     - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
+      - [Delving Deeper into LLM Architectures: A Look at Pre-model Choices](docs/open_source_llm_architecture.md)
     - [LLM Transformer Architecture](docs/Transformer.md)
     - [Level Up LLM: Unleashing the Power of Retrieval Augmented Generation (RAG)](docs/RAG.md)
       - [Challenges](docs/RAG_Challenges.md)
