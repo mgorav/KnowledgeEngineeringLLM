@@ -49,8 +49,9 @@ A comparison of AI provider capabilities
     - [Navigating Smooth Sailing for LLM Apps with Observability](docs/observability.md)
 8. [Conversational Knowledge Agents](docs/Conversational_Knowledge_Agents.md)
 9. [Open Challenges](docs/Open_Challenges.md)
-10. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
-11. [References](docs/References.md)
+10 [LLMOps Approaches](approahces.md)
+11. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
+12. [References](docs/References.md)
 
 
 
