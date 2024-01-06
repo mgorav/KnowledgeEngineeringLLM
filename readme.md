@@ -61,7 +61,8 @@ By weaving these elements into your marketing narrative, you can position your s
 10. [LLMOps Approaches](docs/approahces.md)
 11. [Knowledge Engineering & LLMs for Marketing Technology](docs/MarTech.md)
 12. [Governance & Privacy](docs/governanc_privacy.md)
-13. [References](docs/References.md)
+13. [Generative AI & LLM](docs/LLM_Generative_AI.md)
+14. [References](docs/References.md)
 
 
 
