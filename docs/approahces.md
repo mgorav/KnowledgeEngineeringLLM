@@ -4,6 +4,33 @@ Consider an e-commerce site leveraging conversational AI to provide personalized
 
 LLMOps provides the structured approach to efficiently harness LLM potential while managing risks:
 
+![img_19.png](..%2Fimages%2Fimg_19.png)
+
+Aboavediagram captures key stages in leveraging a large language model (LLM) for real-world applications:
+
+**Inputs**
+
+- Training Corpora: Text datasets used to pretrain language models to teach linguistic capabilities
+- Retrieval Sources: External knowledge graphs or databases used to provide dynamic facts to augment model knowledge
+- Context Fusion: Processing to condense external information into digestible context for the LLM
+
+**LLM Engine**
+
+The pretrained and tuned large language model that handles core capabilities like:
+
+- Search: Information retrieval style queries to surface relevant content
+- Summarization: Condensing verbose content into concise highlights
+- Translation: Changing text from one language to another
+- Generation: Producing new text like continuing stories based on prompts
+
+**Outputs**
+
+- Response: The text content produced by the LLM engine as output, like search results or generated text
+- Rationale: Explanations provided by the LLM on the reasoning behind outputs to increase transparency
+- Metrics: Technical evaluation metrics that quantify aspects like accuracy and fairness to monitor model quality
+
+The flow shows how real-world LLM applications ingest training data and contextual information to handle user needs through the LLM, while providing detailed output and self-oversight for reliability.
+
 ### Finding the Right LLM Recipe
 
 Meticulously evaluating model architectures (BERT vs GPT-3 vs Codex) and size tradeoffs based on accuracy, latency, cost metrics and ethical considerations including bias and transparency.
