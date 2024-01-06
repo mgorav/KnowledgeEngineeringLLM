@@ -1,4 +1,4 @@
-## LLMOps: Operating Large Language Models for Impactful Deployment
+## LLMOps: Operating Large Language Models for Impactful Deployment (AWS)
 
 Deploying large language models (LLMs) into production requires streamlined operations spanning infrastructure, pipelines, monitoring and beyond. We refer to these operational aspects collectively as LLMOps - the key to impactful LLM deployment.
 
