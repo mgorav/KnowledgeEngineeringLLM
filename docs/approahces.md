@@ -6,7 +6,7 @@ LLMOps provides the structured approach to efficiently harness LLM potential whi
 
 ![img_19.png](..%2Fimages%2Fimg_19.png)
 
-Aboavediagram captures key stages in leveraging a large language model (LLM) for real-world applications:
+Above diagram captures key stages in leveraging a large language model (LLM) for real-world applications:
 
 **Inputs**
 
