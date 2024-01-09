@@ -179,7 +179,7 @@ The encoder maps an input sequence X to a sequence of continuous representations
 - Feedforward neural network layers
 
 ```mermaid
-flowchart LR
+flowchart TB
     id1[Input Tokens] --> id2[Embeddings + Positional Encodings]
     id2 --> id3[Multi-Head <br> Self-Attention]
     id3 --> id4[Feed Forward <br> Network] 
