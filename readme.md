@@ -39,14 +39,14 @@ By weaving these elements into your marketing narrative, you can position your s
 
 
 ### Contents
-1.  [Background](docs/KnowledgeEngineering%20.md)
-2.  [A Guide to LLM Training and Inference](docs/LLM_Training_and_Inference.md)
-3.  [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
-4.  [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
-5.  [Methodologies](docs/Methodologies.md)
-6.  [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
-7.  [Architecture](docs/Architectures.md)
-9.  [LLMOps: Operating Large Language Models for Impactful Deployment (AWS)](docs/LLMOps.md)
+1. [Background](docs/KnowledgeEngineering%20.md)
+2. [The Poetry of Probabilities: Demystifying Large Language Models](docs/LLM.md)
+3. [Augmenting Expertise with Language: Incorporating LLMs into Knowledge Systems](docs/Incorporating_LLMs.md)
+4. [Methodologies](docs/Methodologies.md)
+5. [Evaluation Frameworks](docs/Evaluation_Frameworks.md)
+6. [A Guide to LLM Training and Inference](docs/LLM_Training_and_Inference.md)
+7. [Architecture](docs/Architectures.md)
+8. [LLMOps: Operating Large Language Models for Impactful Deployment (AWS)](docs/LLMOps.md)
     - [Unlocking Open-Source LLM Power with Streamlined LLMOps](docs/llm_open_source.md)
       - [Hugging Face: The Home of Open-Source LLMs](docs/Hugging_Face.md)
         - [Delving Deeper into LLM Architectures: A Look at Pre-model Choices](docs/open_source_llm_architecture.md)
